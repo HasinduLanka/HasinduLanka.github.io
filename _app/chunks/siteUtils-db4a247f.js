@@ -1,1 +1,0 @@
-let l=[".","en","si","fr"],t="en",n=t;function i(e){return e=="."&&(e=t),l.includes(e)?(n=e,n):(n=t,n)}function u(e){e.startsWith("/")&&(e=e.substring(1));let s=e.split("/");return s.length==0?t:i(s[0])}export{i as D,u as G,n as l};
